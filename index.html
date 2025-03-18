@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1 id="logo">
+        Web.
+        <span> Designer </span>
+      </h1>
+      <ul class="nav-links">
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#skills-section">Skills</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+      <h1 class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </h1>
+    </nav>
+
+    <!-- Hero Section -->
+
+
+
+    <div id="hero" class="hero-section">
+        <div class="container1">
+            <!-- Left Section (Text) -->
+            <div data-aos="fade-down" class="text-section">
+                <h1 class="hero-heading">Hello, I am <span>Balram Dhakad</span></h1>
+                <p>
+                    I am a passionate <b>MERN Stack Developer</b> with strong problem-solving skills and
+                    expertise in <b>JavaScript, React, Redux, Node.js, Express, and MongoDB.</b>
+                    I specialize in building scalable web applications and have developed multiple projects, including 
+                    <b>Ladhidh.in</b> and a <b>Job Portal Application</b>.
+                </p>
+                <!-- <button class="contact-btn">
+                    Contact Now <i class="fa-solid fa-arrow-right"></i>
+                </button> -->
+
+                <a style="text-decoration: none;" href="mailto:balram@example.com">
+                    <button class="contact-btn">
+                        Contact Now <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </a>
+            </div>
+    
+            <!-- Right Section (Image) -->
+            <div data-aos="fade-up" class="image-section">
+                <div class="image-wrapper">
+                    <img id="hero-image" src="./assests/hero-image.png" alt="Hero Image">
+                    <img src="./assests/circle.png" id="circle" alt="Circle Decoration">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <section id="about-section">
+        <h1 class="section-heading">About Me</h1>
+    
+        <div class="about-container">
+            <!-- Left Section (Image) -->
+            <div class="image-section" data-aos="fade-down">
+                <img id="hero-image" src="./assests/about-image.png" alt="About Image" />
+            </div>
+    
+            <!-- Right Section (Text) -->
+            <div class="text-section" data-aos="fade-up">
+                <h1 class="hero-heading">Myself <span>Balram Dhakad</span></h1>
+                <p>
+                    Currently, I am focused on the <b>MERN stack</b> and software development, 
+                    where I am enhancing my skills in backend development, authentication, and deployment. 
+                    With a <b>B.Tech in Computer Science from Sage University, Indore</b>, I am always eager to learn new technologies and optimize performance-driven applications.
+                </p>
+
+                <a href="resume.pdf" style="text-decoration: none;" download="Balram_Dhakad_Resume.pdf">
+                    <button class="contact-btn">
+                        Download Resume <i class="fa-solid fa-download"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Skills -->
+
+    <section id="skills-section">
+      <h1 class="section-heading">My Skills</h1>
+
+      <div class="skills-grid">
+        <div data-aos="flip-down" class="skill-item">
+          <h1><i class="fa-brands fa-html5"></i></h1>
+          <h3>HTML</h3>
+        </div>
+        <div data-aos="flip-up" class="skill-item">
+          <h1><i class="fa-brands fa-css"></i></h1>
+          <h3>CSS</h3>
+        </div>
+        <div data-aos="flip-down" class="skill-item">
+          <h1><i class="fa-brands fa-js"></i></h1>
+          <h3>JavaScript</h3>
+        </div>
+        <div data-aos="flip-up" class="skill-item">
+          <h1><i class="fa-brands fa-react"></i></h1>
+          <h3>REACT.JS</h3>
+        </div>
+        <div data-aos="flip-down" class="skill-item">
+          <h1><i class="fa-brands fa-node"></i></h1>
+          <h3>NODE.JS</h3>
+        </div>
+        <div data-aos="flip-up" class="skill-item">
+          <h1><i class="fa-solid fa-database"></i></h1>
+          <h3>MONGODB</h3>
+        </div>
+        <div data-aos="flip-down" class="skill-item">
+          <h1><i class="fa-brands fa-github"></i></h1>
+          <h3>GITHUB</h3>
+        </div>
+        <div data-aos="flip-up" class="skill-item">
+          <!-- <h1><i class="fa-brands fa-express"></i></h1> -->
+          <i class="fa-brands fa-server"></i>
+
+          <h3>EXPRESS</h3>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects-section">
+      <h1 class="section-heading">My Projects</h1>
+
+      <div class="projects-list">
+        <div data-aos="zoom-out-down" class="project-card">
+          <video src="./assests/project_one.mp4" autoplay></video>
+          <h3 class="project-title">Fresh Fruit</h3>
+          <p>Fruit Ecommerce</p>
+          <a href="https://freshfruits99.vercel.app/">
+          <button class="card-btn">
+            View
+             <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+        </div>
+        <div data-aos="zoom-out-up" class="project-card">
+          <video src="./assests/project_two.mp4" autoplay></video>
+          <h3 class="project-title">Ladhidh</h3>
+          <p>Online Food Order</p>
+          <a href="https://ladhidh.in/">
+          <button class="card-btn">
+            View
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+        </div>
+        <div data-aos="zoom-out-down" class="project-card">
+          <video src="./assests/projec.mp4" autoplay></video>
+          <h3 class="project-title">CarRepair</h3>
+          <p>Car Repair Manager</p>
+          <a href="https://carrepair45.vercel.app/">
+          <button class="card-btn">
+            View
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get in Touch</h2>
+
+            <div class="contact-content">
+                <!-- Left Section (Text & Socials) -->
+                <div class="contact-info" data-aos="fade-right">
+                    <p>Email: <a href="mailto:balramdhakad763@gmail.com">balramdhakad763@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+917049996991">+91 7049996991</a></p>
+                    <div class="social-links">
+                        <a href="https://github.com/balram763" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/balram763" target="_blank">LinkedIn</a>
+                        <a href="https://twitter.com/balram763" target="_blank">Twitter</a>
+                    </div>
+                </div>
+
+                <!-- Right Section (Image) -->
+                <div class="contact-image">
+                    <img data-aos="fade-down" id="hero-image" src="./assests/contact.png" alt="Contact">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAB Scroll to top -->
+    <div class="scroll-top">
+      <a href="#hero"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+    <footer>
+      <h1 class="hero-heading">Web<span>Designer</span></h1>
+      <p>&copy; All Rights Reserved</p>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/675cd36975.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
