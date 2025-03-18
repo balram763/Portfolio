@@ -617,7 +617,7 @@ footer h1 {
 
 .hero-heading span {
     background: linear-gradient(90deg, #ff7b00, #ff4500);
-  
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
